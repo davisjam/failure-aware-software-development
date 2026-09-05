@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Failure-Aware Software Development — James Davis, Purdue University</title>
+<title>Failure-Aware Software Development &middot; Duality Lab</title>
 <meta name="description" content="What can engineering organizations learn from the ways software fails?">
+<meta name="author" content="James C. Davis">
 <link rel="canonical" href="https://davisjam.github.io/failure-aware-software-development/">
 <meta property="og:title" content="Failure-Aware Software Development">
 <meta property="og:description" content="What can engineering organizations learn from the ways software fails?">
@@ -13,13 +14,21 @@
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<div class="wrap">
 <header class="masthead">
-  <div class="who"><a href="https://davisjam.github.io/">James Davis, PhD</a></div>
-  <div class="role">Assistant Professor, Elmore Family School of Electrical and Computer
-    Engineering, Purdue University</div>
-  <nav><a href="https://davisjam.github.io/">Home</a><a href="https://davisjam.github.io/research/" aria-current="page">Research</a><a href="https://davisjam.github.io/publications/">Publications</a><a href="https://davisjam.github.io/teaching/">Teaching</a><a href="https://davisjam.github.io/service/">Service</a><a href="https://davisjam.github.io/about/">About me</a></nav>
+  <div class="masthead__inner">
+    <a class="masthead__logo" href="https://davisjam.github.io/">
+      <img src="assets/logo-v2.png" alt="Duality Lab"></a>
+    <nav><a href="https://davisjam.github.io/">Home</a><span class="crumb"><a href="https://davisjam.github.io/research/">Research</a><span class="sep">&rsaquo;</span><span class="here">FA-SDLC</span></span><a href="https://davisjam.github.io/publications/">Publications</a><a href="https://davisjam.github.io/teaching/">Teaching</a><a href="https://davisjam.github.io/service/">Service</a><a href="https://davisjam.github.io/about/">About</a></nav>
+  </div>
 </header>
+<div class="shell">
+<aside class="rail">
+  <img class="avatar" src="assets/JamesDavis.jpg" alt="James Davis">
+  <p class="name">James Davis, PhD</p>
+  <p class="role">Assistant Professor,<br>ECE&#64;Purdue</p>
+  <ul><li><a href="mailto:davisjam@purdue.edu">Email</a></li><li><a href="https://scholar.google.com/citations?user=iVjLBTsAAAAJ">Google Scholar</a></li><li><a href="https://github.com/davisjam">GitHub</a></li><li><a href="https://davisjam.github.io/files/JamesDavis-CV.pdf">CV</a></li></ul>
+</aside>
+<main class="main">
 <h1>Failure-Aware Software Development</h1>
 <p class="lede">What can engineering organizations learn from the ways software fails?</p>
 <p>Software failures are investigated, patched, and filed away. The engineering knowledge they contain rarely survives the incident that produced it, so organizations meet the same class of failure again in the next system.</p>
@@ -40,25 +49,27 @@
 <div class="ti">Learning From Software Failures: A Case Study at a National Space Research Center</div>
 <div class="vn">Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)</div>
 <div class="note">A case study inside a national space research center: what an organization with strong incentives to learn from failure actually does.</div>
+<div class="ln"><a href="https://arxiv.org/pdf/2509.06301">Paper</a></div>
 </div>
 <div class="yr">2025</div>
 <div class="e">
 <div class="ti">A Guide to Stakeholder Analysis for Cybersecurity Researchers</div>
 <div class="vn">arXiv</div>
 <div class="note">Failure knowledge only changes engineering if it reaches the people who decide; stakeholder analysis is the missing step in most such work.</div>
+<div class="ln"><a href="https://arxiv.org/pdf/2508.14796">Paper</a></div>
 </div>
 <div class="yr">2024</div>
 <div class="e">
 <div class="ti">FAIL: Analyzing Software Failures from the News Using LLMs</div>
 <div class="vn">Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)</div>
 <div class="note">FAIL scales failure analysis by extracting incidents from news reports, so the evidence base stops being limited to what one team can read.</div>
-<div class="ln"><a href="https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs">Artifact</a><a href="https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e">Blog</a></div>
+<div class="ln"><a href="https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs">Artifact</a><a href="https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e">Blog</a><a href="https://arxiv.org/pdf/2406.08221">Paper</a></div>
 </div>
 <div class="e">
 <div class="ti">On the Contents and Utility of IoT Cybersecurity Guidelines</div>
 <div class="vn">Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE)</div>
 <div class="note">IoT security guidelines are a written form of failure knowledge; this asks what they contain and whether they are usable by the engineers they target.</div>
-<div class="ln"><a href="https://github.com/jessechen09/fse2024-66-on-the-contents-and-utility-of-IoT-cybersecurity-guidelines">Artifact</a><a href="https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3">Blog</a></div>
+<div class="ln"><a href="https://github.com/jessechen09/fse2024-66-on-the-contents-and-utility-of-IoT-cybersecurity-guidelines">Artifact</a><a href="https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3">Blog</a><a href="https://arxiv.org/pdf/2310.01653">Paper</a></div>
 </div>
 <div class="yr">2023</div>
 <div class="e">
@@ -84,21 +95,21 @@
 <div class="ti">Reflecting on Recurring Failures in IoT Development</div>
 <div class="vn">Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: New Ideas and Emerging Results track (ASE-NIER)</div>
 <div class="note">Showed that IoT failures recur through a small number of design flaws, so the knowledge to prevent them existed before the failures happened.</div>
-<div class="ln"><a href="https://tinyurl.com/3h2c85rc">Artifact</a><a href="https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837">Blog</a></div>
+<div class="ln"><a href="https://tinyurl.com/3h2c85rc">Artifact</a><a href="https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837">Blog</a><a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1180&amp;context=ecepubs">Paper</a></div>
 </div>
 <div class="e">
 <div class="ti">Reflections on Software Failure Analysis</div>
 <div class="vn">Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)</div>
 <div class="note">Surveyed how failure studies are actually conducted and found the methods inconsistent, which is the problem the rest of this program addresses.</div>
-<div class="ln"><a href="https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba">Blog</a></div>
+<div class="ln"><a href="https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba">Blog</a><a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&amp;context=ecepubs">Paper</a></div>
 </div>
+</div>
+</main>
 </div>
 <footer class="site">
   <p><a href="https://davisjam.github.io/research/">&larr; All research</a></p>
-  <p><a href="https://davisjam.github.io/">James Davis</a> ·
-     <a href="https://davisjam.github.io/publications/">Publications</a> ·
-     <a href="https://davisjam.github.io/teaching/">Teaching</a></p>
+  <p>Duality Lab &middot; Elmore Family School of Electrical and Computer
+     Engineering &middot; Purdue University</p>
 </footer>
-</div>
 </body>
 </html>
